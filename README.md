@@ -1,9 +1,9 @@
 # Predict-Future-Sales
 
-Sales forecasting is a frequent application of Machine Learning. Businesses can use this forecasting to identify benchmarks, determine incremental impacts of new initiatives, plan resources in response to expected demand, and project future budgets. This report provides detailed Machine Learning based solutions to the <a href="https://www.kaggle.com/c/competitive-data-science-predict-future-sales">Kaggle competition - Predict Future Sales </a>. We have implemented different Machine Learning models to produce forecasted output for the given dataset and concluded the best results with Kaggle ranking. 
+Sales forecasting is a frequent application of Machine Learning. Businesses can use this forecasting to identify benchmarks, determine incremental impacts of new initiatives, plan resources in response to expected demand, and project future budgets. This report provides detailed Machine Learning based solutions to the <a href="https://www.kaggle.com/c/competitive-data-science-predict-future-sales">Kaggle competition - Predict Future Sales </a>. I have implemented different Machine Learning models to produce forecasted output for the given dataset and concluded the best results with Kaggle ranking. 
 
 <h3>Problem Statement and Methods applied</h3>
-<p>Our task is to forecast the total amount of products sold in every shop for the test set. We have applied following models:
+<p>The task is to forecast the total amount of products sold in every shop for the test set. We have applied following models:
 <ol>
 <li>Prophet</li>
 <li>LSTM</li>
@@ -15,7 +15,7 @@ Sales forecasting is a frequent application of Machine Learning. Businesses can 
 Check out detailed report of each model implemented <a href="https://docs.google.com/document/d/1JJp8aekJ470IJNwLytv9RFhP0BZMUtIeDTuWqgZEP3c/edit">here</a>.
 
 <h3>Data Description</h3>
-<p>The dataset provided to us is a time-series daily historical sales data. It consists of <b>2,170 items</b> sold by <b>60 shops</b> between <b>January 2013 to October 2015</b>.</p> 
+<p>The dataset used is time-series daily historical sales data. It consists of <b>2,170 items</b> sold by <b>60 shops</b> between <b>January 2013 to October 2015</b>.</p> 
 <p>The data set consist of 6 csv extension files which are given below with their descriptions: </p>
 <ol>
 <li><b>sales_train.csv:</b> This is the training set which consist of historical data from January 2013 to October 2015.</li>
